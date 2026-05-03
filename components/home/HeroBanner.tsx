@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import { ChevronRight } from 'lucide-react'
 
 export default function HeroBanner() {
     return (

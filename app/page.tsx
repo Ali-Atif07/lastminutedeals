@@ -12,7 +12,7 @@ import TrendingStays from '@/components/home/TrendingStays'
 import RestaurantCard from '@/components/restaurant/RestaurantCard'
 import { restaurants, lastMinuteDeals, trendingStays } from '@/lib/data'
 
-const filterMap: Record<string, string> = {
+const _filterMap: Record<string, string> = {
   'All Buffets': 'all',
   'Lunch': 'lunch',
   'Dinner': 'dinner',

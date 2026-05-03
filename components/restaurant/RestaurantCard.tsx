@@ -15,7 +15,6 @@ interface RestaurantCardProps {
 export default function RestaurantCard({
     restaurant,
     onClick,
-    variant = 'grid',
 }: RestaurantCardProps) {
     const router = useRouter()
     return (

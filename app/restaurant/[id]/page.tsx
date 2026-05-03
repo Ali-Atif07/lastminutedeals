@@ -3,10 +3,11 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { useParams, useRouter } from 'next/navigation'
-import { MapPin, Users, Table, Star, Wifi, ParkingCircle, Smile, ArrowLeft } from 'lucide-react'
+import { MapPin, Users, Star, Wifi, ParkingCircle, Smile, ArrowLeft } from 'lucide-react'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import { restaurants } from '@/lib/data'
+
 
 export default function RestaurantDetailPage() {
     const { id } = useParams()
